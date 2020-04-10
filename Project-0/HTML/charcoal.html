@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Charcoal shading </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+
+	<style>
+
+		header {
+			text-align: center;
+			background-image: linear-gradient(lavender,white,lavender);
+			font-size: 30px;
+			color: black;
+			font-family: georgia; 
+		}
+
+		.grid {
+			/*background-color: lightblue;*/
+			/*background-image: url("pencil2.jpg");*/
+			display: block;
+
+			/*padding: 20px;*/
+			grid-column-gap: 2px;
+			grid-row-gap: 20px;
+			grid-template-columns: auto;
+		}
+
+		.grid-item {
+			background-color: white;
+
+			/*background-image: url("pencil2.jpg");*/
+			font-size: 20px;
+			/*padding: 20px*/
+			/*text-align: center;*/
+			vertical-align:center;
+		}
+
+		div {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		body {
+			background-image: url("../Images/3.jpg");
+
+		}
+
+		img {
+			/*padding: 10%;*/
+			 /*border: 10px solid blue;*/
+			 vertical-align: middle;
+		}
+
+		.demo {
+		  opacity: 0.6;
+		}
+
+		.active,
+		.demo:hover {
+		  opacity: 1;
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 34px;
+			font-style: bold;
+			color: white;
+		}
+
+		div.transbox {
+			margin: 30px;
+			background-color: #ffffff;
+			border: 1px solid black;
+			opacity: 0.8;
+		}
+
+		.row{
+			margin-top: 25px;
+			margin-left: 5px;
+		}
+
+
+		
+
+	</style>
+
+
+</head>
+<body>
+	<header>Lakshmi's Sketches</header>
+	<h1> Charcoal Pencil Shading </h1>
+
+	<!-- <header>Lakshmi's Sketches</header> -->
+	<!-- <h2>About Me..</h2> -->
+	<div class="row">
+		<div class="col-lg-3 col-sm-2">
+			<div class="background">
+				<div class="transbox">
+				<h4>Menu</h4>
+				<br>
+			<ul>
+				<li><a href="../HTML/Sketch.html"> About Me </a></li>
+				<li>Sketches</li>
+				<ul>
+					<li><a href="../HTML/charcoal.html">Charcoal Sketches</a></li>
+					<li><a href="../HTML/pencil.html">Pencil Shading</a></li>
+					<li><a href="../HTML/color.html">Color Sketches</a></li>
+				</ul>
+			</ul>
+		</div>
+	</div>
+		</div>
+
+	
+	<div class='grid'>
+		<div class='grid-item'>
+			<div class="row">
+				<div class="column">
+			<img class="demo cursor" src="../Images/c1.jfif" style="width:70%;">
+		</div>
+		</div>
+	</div>
+
+		<div class='grid-item'>
+			<div class="row">
+				<div class="column">
+					<img class="demo cursor" src="../Images/c2.jfif" style="width: 85%;height:auto;margin-left: 0%;
+					margin-right: 0%; ">
+				</div>
+			</div>
+		</div>
+
+		<div class='grid-item'>
+			<div class="row">
+				<div class="column">
+					<img class="demo cursor" src="../Images/c3.jfif" style="width: 80%;height:auto; ">
+				</div>
+			</div>
+		</div>
+</div>
+</body>
+</html>
+
+

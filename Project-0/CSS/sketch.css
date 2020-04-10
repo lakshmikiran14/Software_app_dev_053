@@ -1,0 +1,73 @@
+h2 {
+  text-align: center;
+  font-style: bold;
+}
+
+header {
+  text-align: center;
+  background-image: linear-gradient(lavender, white, lavender);
+  font-size: 30px;
+  color: black;
+  font-family: georgia;
+}
+
+h2 {
+  color: black;
+}
+
+h4 {
+  margin-left: 20%;
+  font-size: 26px;
+}
+
+p {
+  font-size: 24px;
+}
+
+body {
+  background-image: url("../Images/3.jpg");
+}
+
+div.background {
+  border: 2px solid black;
+}
+
+table {
+  border: 1.5px solid gray;
+  border-collapse: collapse;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  align-self: center;
+  padding-top: 5%;
+}
+div.transbox div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  align-self: center;
+  padding-top: 5%;
+}
+
+ul {
+  font-size: 20px;
+}
+
+.row {
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=sketch.css.map */
