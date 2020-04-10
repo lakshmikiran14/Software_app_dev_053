@@ -49,7 +49,7 @@ table, th, td {
         text-align: center;
         }
 
-div.transbox {
+div.transbox  {
 	margin: 30px;
 	background-color: #ffffff;
 	border: 1px solid $color_cm;
@@ -71,6 +71,11 @@ ul {
 }
 
 .row{
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.col{
 	margin-top: 5%;
 	margin-left: 5%;
 }
