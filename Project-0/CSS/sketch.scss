@@ -79,3 +79,8 @@ ul {
 	margin-top: 5%;
 	margin-left: 5%;
 }
+
+p::selection {
+			Color: red;
+			Background-color: yellow;
+		}
