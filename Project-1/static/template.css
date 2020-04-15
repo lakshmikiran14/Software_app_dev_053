@@ -1,0 +1,63 @@
+.links_list ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		}
+
+		.links_list ul li {
+		  float: left;
+		}
+
+		.links_list ul li a {
+		  display: block;
+		  padding: 8px;
+		  background-color: #dddddd;
+		}
+
+		.form-group {
+			margin: 7%;
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		.button1:hover {
+  			background-color: #4CAF50;
+  			color: white;
+		}
+
+		body {
+			background-image: url("/static/books1.jpeg");
+			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-size: cover;
+
+		}
+
+
+		div.transbox  {
+			margin: 30px;
+			background-color: #ffffff;
+			border: 1px solid black;
+			opacity: 0.6;
+			align-self: center;
+			padding-top: 5%;
+			padding-left: 5%;
+			padding-right: 5%;
+			font-size: 100%;
+				
+
+		div.transbox p {
+			margin: 5%;
+			font-weight: bold;
+			color: #000000;
+			align-self: center;
+			/*padding-top: 5%;*/
+			padding-bottom: 5%;
+
+
+
+		}		
+}

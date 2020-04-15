@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='template.css') }}">
+	
+</head>
+<body>
+	<div class="links_list">
+		<ul>
+		  <li><a href="/">Home</a></li>
+		  <li><a href="/register">Register</a></li>
+		  <!-- <li><a href="#contact">Contact</a></li>
+		  <li><a href="#about">About</a></li> -->
+		</ul>
+	</div>
+		
+
+	<div class="main_body">
+		{% block body %}
+		{% endblock %}
+	</div>
+</body>
+</html>
