@@ -1,0 +1,25 @@
+{% extends "template.html" %}
+{% block body %}
+<h3> List of Users </h3>
+
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Password</th>
+      <th scope="col">Time</th>
+    </tr>
+  </thead>
+  <tbody>
+  	{% for each in user %}
+
+    <tr>
+      <td> {{each.name}} </td>
+      <td> {{each.password}} </td>
+      <td> {{each.time}} </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
