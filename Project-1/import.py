@@ -8,7 +8,7 @@ engine = create_engine(os.getenv("DATABASE_URL"))
 Session = sessionmaker(bind = engine)
 session = Session()
 Base = declarative_base()
-Base.metadata.create_all(engine)
+
 
 class Book_obj(Base):
 	__tablename__ = "book_details"
@@ -17,8 +17,12 @@ class Book_obj(Base):
 	author = Column(String)
 	year = Column(Integer)
 
+Base.metadata.create_all(engine)
+
 book_list = list(csv.reader(open("books.csv")))
 for each in book_list[1:]:
 	session.add(Book_obj(isbn = each[0], title = each[1], author = each[2], year = int(each[3])))
 print("List of Books")
 session.commit()
+
+
