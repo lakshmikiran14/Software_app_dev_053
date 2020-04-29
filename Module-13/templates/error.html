@@ -1,0 +1,12 @@
+{% extends "template.html" %}
+{% block body %}
+{% if not flag %}
+	<h3> User account could not be created. </h3>
+{% endif %}
+
+{% if flag %}
+	<h3> Incorrect credentials. </h3>
+{% endif %}
+
+
+{% endblock %}
