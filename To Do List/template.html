@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List</title>
+	<script type="text/javascript" src="to_do_list.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+	
+	<div class = "row">
+		<div class = "col-md-2 col-md-2"> </div>
+		<div class = "col-md-2 col-md-6">
+			<div class="jumbotron jumbotron-fluid">
+ 				<div class="container">
+    				<h1 class="display-4">TO DO LIST</h1>
+  				</div>
+			</div>
+			
+			<h2>List of things</h2>
+			<ul></ul>
+
+			<form>
+				<div class="form-group">
+
+				<input type="text" id="task_name" placeholder="Task description">
+			
+				<button type="button" class="btn btn-primary" data-task="add">Add Task</button>
+				<button type="button" class="btn btn-danger" data-task="del">Remove Task</button>
+				<button type="button" class="btn btn-success" data-task="done">Completed</button>
+			</div>
+			</form>
+		</div>
+	</div>
+		<!-- <div class="col-md-1 col-md-3"></div> -->
+</body>
+</html>
